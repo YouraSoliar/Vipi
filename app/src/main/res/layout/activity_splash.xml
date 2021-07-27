@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="V"
+        android:textColor="#D33808"
+        android:textSize="150sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textI2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="319dp"
+        android:layout_marginEnd="21dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="I"
+        android:textColor="#5C210E"
+        android:textSize="150sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="I"
+        android:textColor="#FF5722"
+        android:textSize="150sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="314dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="P"
+        android:textColor="#EF9F86"
+        android:textSize="150sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="128dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="41dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Video Picker"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+</RelativeLayout>
