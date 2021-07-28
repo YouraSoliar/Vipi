@@ -15,16 +15,15 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        getSupportActionBar().hide();
 
         textV = findViewById(R.id.textV);
         textI = findViewById(R.id.textI);
         textP = findViewById(R.id.textP);
         textI2 = findViewById(R.id.textI2);
         textV.animate().translationY(-400).setDuration(2000);
-        textI.animate().translationX(400).setDuration(2000);
+        textI.animate().translationY(400).setDuration(2000);
         textP.animate().translationX(-400).setDuration(2000);
-        textI2.animate().translationY(400).setDuration(2000);
+        textI2.animate().translationX(400).setDuration(2000);
 
 
         final Intent i = new Intent(SplashActivity.this, MainActivity.class);
@@ -34,6 +33,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(i);
                 finish();
             }
-        }, 2200);
+        }, 2000);
     }
 }
